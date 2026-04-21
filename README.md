@@ -1,0 +1,2 @@
+# USACO-CP
+CP Diary
