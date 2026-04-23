@@ -1,6 +1,6 @@
-Ques : https://usaco.org/index.php?page=viewproblem2&cpid=987
+// Ques : https://usaco.org/index.php?page=viewproblem2&cpid=987
 
-Solution : 
+// Solution : 
 #include <iostream>
 #include <vector>
 using namespace std;
