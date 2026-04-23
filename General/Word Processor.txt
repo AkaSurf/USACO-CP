@@ -1,0 +1,28 @@
+Ques : https://usaco.org/index.php?page=viewproblem2&cpid=987
+
+Solution : 
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+  int a, b;
+  cin >> a >> b;
+  vector<string> arr;
+  for (int i = 0; i < a; i++) {
+    string str1;
+    cin >> str1;
+    arr.push_back(str1);
+  }
+  int cnt = 0;
+  for (int i = 0; i < a; i++) {
+    cnt += arr[i].size();
+    if (cnt <= b) {
+      cout << arr[i] << " ";
+    } else {
+      cout << endl;
+      cout << arr[i] << " ";
+      cnt = arr[i].size();
+    }
+  }
+}
